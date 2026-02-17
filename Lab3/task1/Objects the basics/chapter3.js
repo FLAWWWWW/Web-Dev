@@ -11,4 +11,4 @@ alert(isEmpty(schedule));
 
 schedule["8:30"] = "go to school";
 
-alert(isEmpty(schedule));
+alert(isEmpty(schedule));   

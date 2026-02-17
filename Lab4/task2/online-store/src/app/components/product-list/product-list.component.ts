@@ -25,7 +25,9 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/p59/p48/72176323.jpg?format=gallery-large',
         'https://resources.cdn-kaspi.kz/img/m/p/p75/p48/72176324.jpg?format=gallery-large'
       ],
-      link: 'https://kaspi.kz/shop/p/ultra-s-ultkb03-seryi-147884231/?c=750000000'
+      link: 'https://kaspi.kz/shop/p/ultra-s-ultkb03-seryi-147884231/?c=750000000',
+      likes: 0,
+      categoryId: 0
     },
     {
       id: 2,
@@ -39,7 +41,9 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/h49/hde/86304170045502.jpg',
         'https://resources.cdn-kaspi.kz/img/m/p/h88/h60/86304170111070.jpg'
       ],
-      link: 'https://kaspi.kz/shop/p/ultra-s-ultmice11-h2-belyi-146975135/?c=750000000'
+      link: 'https://kaspi.kz/shop/p/ultra-s-ultmice11-h2-belyi-146975135/?c=750000000',
+      likes: 0,
+      categoryId: 0
     },
     {
       id: 3,
@@ -53,7 +57,9 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/h49/hde/86304170045502.jpg',
         'https://resources.cdn-kaspi.kz/img/m/p/h88/h60/86304170111070.jpg'
       ],
-      link: 'https://kaspi.kz/shop/p/ser-gi-n-bizhuternyi-splav-strazy-109090969/?c=750000000'
+      link: 'https://kaspi.kz/shop/p/ser-gi-n-bizhuternyi-splav-strazy-109090969/?c=750000000',
+      likes: 0,
+      categoryId: 0
     },
     {
       id: 4,
@@ -67,7 +73,9 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/h49/hde/86304170045502.jpg',
         'https://resources.cdn-kaspi.kz/img/m/p/h88/h60/86304170111070.jpg'
       ],
-      link: 'https://kaspi.kz/shop/p/ser-gi-chengse-bazovaja-kollektsija-bizhuternyi-splav-meditsinskaja-stal-bez-vstavok-114980290/?c=750000000'
+      link: 'https://kaspi.kz/shop/p/ser-gi-chengse-bazovaja-kollektsija-bizhuternyi-splav-meditsinskaja-stal-bez-vstavok-114980290/?c=750000000',
+      likes: 0,
+      categoryId: 0
     },
     {
       id: 5,
@@ -81,7 +89,9 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/h49/hde/86304170045502.jpg',
         'https://resources.cdn-kaspi.kz/img/m/p/h88/h60/86304170111070.jpg'
       ],
-      link: 'https://kaspi.kz/shop/p/tapochki-byronica-mv-br-d2-grafit-chernyi-38-39-150066532/?c=750000000&hasVariants=true'
+      link: 'https://kaspi.kz/shop/p/tapochki-byronica-mv-br-d2-grafit-chernyi-38-39-150066532/?c=750000000&hasVariants=true',
+      likes: 0,
+      categoryId: 0
     },
     {
       id: 6,
@@ -95,7 +105,9 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/h49/hde/86304170045502.jpg',
         'https://resources.cdn-kaspi.kz/img/m/p/h88/h60/86304170111070.jpg'
       ],
-      link: 'https://kaspi.kz/shop/p/galoshi-rt-art-106m-chernyi-36-110870621/?c=750000000&hasVariants=true'
+      link: 'https://kaspi.kz/shop/p/galoshi-rt-art-106m-chernyi-36-110870621/?c=750000000&hasVariants=true',
+      likes: 0,
+      categoryId: 0
     },
     {
       id: 7,
@@ -109,7 +121,9 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/h49/hde/86304170045502.jpg',
         'https://resources.cdn-kaspi.kz/img/m/p/h88/h60/86304170111070.jpg'
       ],
-      link: 'https://kaspi.kz/shop/p/felix-kusochki-v-zhele-jagnenok-75-g-1-sht-100218721/?c=750000000'
+      link: 'https://kaspi.kz/shop/p/felix-kusochki-v-zhele-jagnenok-75-g-1-sht-100218721/?c=750000000',
+      likes: 0,
+      categoryId: 0
     },
     {
       id: 8,
@@ -123,7 +137,9 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/h49/hde/86304170045502.jpg',
         'https://resources.cdn-kaspi.kz/img/m/p/h88/h60/86304170111070.jpg'
       ],
-      link: 'https://kaspi.kz/shop/p/darling-darling-kusochki-v-souse-govjadina-75-g-1-sht-110583732/?c=750000000'
+      link: 'https://kaspi.kz/shop/p/darling-darling-kusochki-v-souse-govjadina-75-g-1-sht-110583732/?c=750000000',
+      likes: 0,
+      categoryId: 0
     },
     {
       id: 9,
@@ -137,7 +153,9 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/h49/hde/86304170045502.jpg',
         'https://resources.cdn-kaspi.kz/img/m/p/h88/h60/86304170111070.jpg'
       ],
-      link: 'https://kaspi.kz/shop/p/butylka-dlja-vody-2-litra-1007-2000-ml-goluboi-108970626/?c=750000000'
+      link: 'https://kaspi.kz/shop/p/butylka-dlja-vody-2-litra-1007-2000-ml-goluboi-108970626/?c=750000000',
+      likes: 0,
+      categoryId: 0
     },
     {
       id: 10,
@@ -151,7 +169,9 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/h49/hde/86304170045502.jpg',
         'https://resources.cdn-kaspi.kz/img/m/p/h88/h60/86304170111070.jpg'
       ],
-      link: 'https://kaspi.kz/shop/p/kreatin-qazprotein-creatine-monohydrate-neitral-nyi-150-g-112792116/?c=750000000'
+      link: 'https://kaspi.kz/shop/p/kreatin-qazprotein-creatine-monohydrate-neitral-nyi-150-g-112792116/?c=750000000',
+      likes: 0,
+      categoryId: 0
     },
   ];
 }
