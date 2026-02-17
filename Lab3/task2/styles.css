@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.header {
+  background-color: #1f1f1f;
+  padding: 15px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-title {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.todo {
+  width: 600px;
+}
+
+.todo h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-btn {
+  padding: 8px 16px;
+  background-color: #2e6da4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #204d74;
+}
+
+.list {
+  list-style: none;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 16px;
+}
