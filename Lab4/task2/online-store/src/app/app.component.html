@@ -10,11 +10,6 @@
     </button>
   </div>
 
-  <div *ngIf="!selectedCategoryId" class="welcome-message">
-    <h2>Welcome to Online Store!</h2>
-    <p>Please select a category to start shopping</p>
-  </div>
-
   <app-product-list
     *ngIf="selectedCategoryId"
     [products]="filteredProducts"

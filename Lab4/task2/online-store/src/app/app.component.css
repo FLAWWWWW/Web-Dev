@@ -33,11 +33,6 @@ h1 {
   transition: all 0.3s ease;
 }
 
-.categories button:hover {
-  background: #e0e0e0;
-  transform: translateY(-2px);
-}
-
 .categories button.active {
   background: #ff0055;
   color: white;

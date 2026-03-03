@@ -1,0 +1,32 @@
+.navbar {
+  background: #6b21a8;
+  padding: 15px 0;
+  color: white;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+nav a.active {
+  border-bottom: 2px solid white;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
