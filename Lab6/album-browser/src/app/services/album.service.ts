@@ -25,6 +25,7 @@ export class AlbumService {
     }
 
     updateAlbum(album: Album): Observable<Album> {
+        localStorage.setItem(`album_${album.id}`, JSON.stringify(album));
         return this.http.put<Album>(`${this.apiUrl}/${album.id}`, album);
     }
 

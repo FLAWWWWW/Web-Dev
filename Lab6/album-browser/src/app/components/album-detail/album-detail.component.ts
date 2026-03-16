@@ -36,11 +36,12 @@ export class AlbumDetailComponent implements OnInit {
   }
 
   saveTitle(): void {
-    if (this.album && this.newTitle) {
+    if (this.album && this.newTitle.trim()) {
       const updatedAlbum = { ...this.album, title: this.newTitle };
-      this.albumService.updateAlbum(updatedAlbum).subscribe((data) => {
-        if (this.album) {
-          this.album.title = this.newTitle;
+      
+      this.albumService.updateAlbum(updatedAlbum).subscribe({
+        next: (data) => {
+          this.album = data;
           this.cdr.detectChanges();
         }
       });

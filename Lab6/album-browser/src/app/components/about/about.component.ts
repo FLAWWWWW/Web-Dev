@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   template: `
     <div>
       <h1>About</h1>
-      <p>Name: [Your Name]</p>
-      <p>Course: Angular Development</p>
+      <p>Name: Anastasia</p>
+      <p>Course: Web Development</p>
     </div>
   `
 })
