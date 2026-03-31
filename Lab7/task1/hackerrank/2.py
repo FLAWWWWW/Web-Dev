@@ -1,16 +1,11 @@
 n = int(input())
-students = []
+arr = list(map(int, input().split()))
 
-for _ in range(n):
-    name = input()
-    grade = float(input())
-    students.append([name, grade])
+max_score = max(arr)
 
-grades = sorted(set([student[1] for student in students]))
-second_lowest_grade = grades[1]
+while max_score in arr:
+    arr.remove(max_score)
 
-second_lowest_students = [student[0] for student in students if student[1] == second_lowest_grade]
-second_lowest_students.sort()
+runner_up = max(arr)
 
-for student in second_lowest_students:
-    print(student)
+print(runner_up)
